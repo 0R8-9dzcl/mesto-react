@@ -4,9 +4,9 @@ import api from '../utils/api';
 import Card from './Card';
 
 function Main({onEditAvatar, onEditProfile, onAddPlace, onCardClick}) {
-	const [userAvatar, setUserAvatar] = React.useState();
-	const [userName, setUserName] = React.useState();
-	const [userDescription , setUserDescription ] = React.useState();
+	const [userAvatar, setUserAvatar] = React.useState('');
+	const [userName, setUserName] = React.useState('');
+	const [userDescription , setUserDescription ] = React.useState('');
 	const [cards, setCards] = React.useState([]);
 	React.useEffect(() => {
 		Promise.all([ api.getUserInfo(), api.getCards() ])
@@ -17,7 +17,7 @@ function Main({onEditAvatar, onEditProfile, onAddPlace, onCardClick}) {
 			setCards(cardList)
 		})
 		.catch(err => console.log(err))
-	})
+	}, [])
 	return (
 		<>
 			<main>
