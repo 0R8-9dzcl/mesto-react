@@ -1,16 +1,16 @@
-function Card(props) {
+function Card({ card, onCardClick }) {
     const handleCardClick = () => {
-        props.onCardClick(props.card);
+        onCardClick(card);
     };
 	return (
-		<li className="card" id={props.card._id}>
+		<li className="card">
             <button className="card__delete" type="button"></button>
-            <img className="card__photo" src={props.card.link} alt={props.card.name} onClick={handleCardClick} />
+            <img className="card__photo" src={card.link} alt={card.name} onClick={handleCardClick} />
             <div className="card__caption">
-                <h2 className="card__title">{props.card.name}</h2>
+                <h2 className="card__title">{card.name}</h2>
                 <div className="card__like-container">
                     <button className="card__like" type="button"></button>
-                    <p className="card__like-counter">{props.card.likes.length}</p>
+                    <p className="card__like-counter">{card.likes.length}</p>
                 </div>
             </div>
         </li>
