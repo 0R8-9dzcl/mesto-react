@@ -75,23 +75,24 @@ class Api{
 			return this._checkOk(res)
 		})
 	}
-	addCardLike(cardId) {
-		return fetch(this._url + `cards/likes/${cardId}`, {
-			method: 'PUT',
-			headers: this._headers
-		})
-		.then(res => {
-			return this._checkOk(res)
-		})
-	}
-	removeCardLike(cardId) {
-		return fetch(this._url + `cards/likes/${cardId}`, {
-			method: 'DELETE',
-			headers: this._headers
-		})
-		.then(res => {
-			return this._checkOk(res)
-		})
+	changeLikeCardStatus(cardId, isLiked) {
+		if(isLiked) {
+			return fetch(this._url + `cards/likes/${cardId}`, {
+				method: 'PUT',
+				headers: this._headers
+			})
+			.then(res => {
+				return this._checkOk(res)
+			})
+		} else {
+			return fetch(this._url + `cards/likes/${cardId}`, {
+				method: 'DELETE',
+				headers: this._headers
+			})
+			.then(res => {
+				return this._checkOk(res)
+			})
+		}
 	}
 }
 const api = new Api({
