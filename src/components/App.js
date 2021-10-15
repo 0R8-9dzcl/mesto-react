@@ -17,7 +17,7 @@ function App() {
 	const [isAddPlacePopupOpen, setIsAddPlacePopupOpen] = React.useState(false);
 	const [isDeletePlacePopupOpen, setIsDeletePlacePopupOpen] = React.useState(false);
 	const [selectedCard, setSelectedCard] = React.useState({name: '', link: ''});
-	const [deletingcard, setDeletingcard] = React.useState(false);
+	const [deletingcard, setDeletingcard] = React.useState({});
 	const [cards, setCards] = React.useState([]);
 	// currenUser
 	const [currentUser, setCurrentUser] = React.useState({ name:'', about:''});
