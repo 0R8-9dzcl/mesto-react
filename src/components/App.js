@@ -59,6 +59,7 @@ function App() {
 		setIsAddPlacePopupOpen(false);
 		setIsDeletePlacePopupOpen(false);
 		setSelectedCard({name: '', link: ''});
+		setDeletingcard({});
 	};
 	// UserData
 	function handleUpdateUser(data) {
