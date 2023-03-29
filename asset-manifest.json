@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mesto-react/static/css/main.24772ad3.chunk.css",
-    "main.js": "/mesto-react/static/js/main.3171a7fe.chunk.js",
-    "main.js.map": "/mesto-react/static/js/main.3171a7fe.chunk.js.map",
-    "runtime-main.js": "/mesto-react/static/js/runtime-main.f6e3a621.js",
-    "runtime-main.js.map": "/mesto-react/static/js/runtime-main.f6e3a621.js.map",
-    "static/js/2.1b20635f.chunk.js": "/mesto-react/static/js/2.1b20635f.chunk.js",
-    "static/js/2.1b20635f.chunk.js.map": "/mesto-react/static/js/2.1b20635f.chunk.js.map",
-    "static/js/3.6becd6cb.chunk.js": "/mesto-react/static/js/3.6becd6cb.chunk.js",
-    "static/js/3.6becd6cb.chunk.js.map": "/mesto-react/static/js/3.6becd6cb.chunk.js.map",
+    "main.css": "/mesto-react/static/css/main.2d4f4293.chunk.css",
+    "main.js": "/mesto-react/static/js/main.ed5a2539.chunk.js",
+    "main.js.map": "/mesto-react/static/js/main.ed5a2539.chunk.js.map",
+    "runtime-main.js": "/mesto-react/static/js/runtime-main.42a53b23.js",
+    "runtime-main.js.map": "/mesto-react/static/js/runtime-main.42a53b23.js.map",
+    "static/js/2.b0f94723.chunk.js": "/mesto-react/static/js/2.b0f94723.chunk.js",
+    "static/js/2.b0f94723.chunk.js.map": "/mesto-react/static/js/2.b0f94723.chunk.js.map",
+    "static/js/3.8f6b9056.chunk.js": "/mesto-react/static/js/3.8f6b9056.chunk.js",
+    "static/js/3.8f6b9056.chunk.js.map": "/mesto-react/static/js/3.8f6b9056.chunk.js.map",
     "index.html": "/mesto-react/index.html",
-    "static/css/main.24772ad3.chunk.css.map": "/mesto-react/static/css/main.24772ad3.chunk.css.map",
-    "static/js/2.1b20635f.chunk.js.LICENSE.txt": "/mesto-react/static/js/2.1b20635f.chunk.js.LICENSE.txt",
+    "static/css/main.2d4f4293.chunk.css.map": "/mesto-react/static/css/main.2d4f4293.chunk.css.map",
+    "static/js/2.b0f94723.chunk.js.LICENSE.txt": "/mesto-react/static/js/2.b0f94723.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mesto-react/static/media/logo-edit.ae1a976d.svg",
     "static/media/header-logo.5f3664ca.svg": "/mesto-react/static/media/header-logo.5f3664ca.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6e3a621.js",
-    "static/js/2.1b20635f.chunk.js",
-    "static/css/main.24772ad3.chunk.css",
-    "static/js/main.3171a7fe.chunk.js"
+    "static/js/runtime-main.42a53b23.js",
+    "static/js/2.b0f94723.chunk.js",
+    "static/css/main.2d4f4293.chunk.css",
+    "static/js/main.ed5a2539.chunk.js"
   ]
 }
